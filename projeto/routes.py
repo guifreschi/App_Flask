@@ -1,7 +1,7 @@
 from projeto import app, db ###
 from flask import render_template, request, redirect, url_for #####
 from projeto.lista_filmes import resultado_filmes
-from projeto.livro import Livro as livro
+from projeto.livro import livro
 
 conteudos = []
 @app.route('/', methods=['GET', 'POST']) # precisa sem em maiúsculo aqui

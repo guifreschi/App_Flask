@@ -1,6 +1,6 @@
 from projeto import db
 
-class Livro(db.Model):
+class livro(db.Model):
   id = db.Column(db.Integer, primary_key=True)
   nome = db.Column(db.String(50))
   descricao = db.Column(db.String(100))
